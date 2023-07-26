@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.interior {
+    top: 0;
+    left: 0;
+}
+
+.pricing-page {
+    background: -webkit-linear-gradient(45deg, #680aca, #ff897e);
+    background: linear-gradient(60deg,#f79533,#f37055,#ef4e7b,#a166ab,#5073b8,#1098ad,#07b39b,#6fba82);
+    background-size: 300% 300%;
+    min-height: 100%;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    padding: 0;
+    margin-left: 10px;
+    width: calc(25% - 20px);
+}
+
+.text {
+    background-color: brown;
+}
+
+.container button {
+    background-color: brown;
+    color: white;
+    font-size: 18px;
+}
+
+.container button:hover {
+    background-color: rgba(165, 42, 42, 0.746);
+    color: rgb(187, 135, 135);
+}
+
+.border{
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid #fefefe;
+    opacity: .25;
+}
+
+.scale-img {
+    overflow: hidden;
+}
+
+.scale-img img {
+    transition: 0.5s;
+}
+.scale-img:hover img {
+    transform: scale(1.1) rotate(-1deg);
+}
